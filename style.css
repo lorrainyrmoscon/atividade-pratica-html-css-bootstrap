@@ -1,0 +1,472 @@
+  @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    margin: 0;
+    background-color: #6F0324;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabeçalho img {
+    height: 80px;
+    margin-left: 50px;
+    
+}
+
+@media (max-width: 600px){
+    .cabeçalho img {
+        height: 100px;
+        margin-left: 15px;
+        
+    }
+}
+
+
+.navegadores ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    justify-content: flex-end;
+    
+}
+
+.navegadores ul li {
+    display: inline-block;
+    padding-right: 25px;
+    color: white;
+    font-family: 'Poppins', serif;
+    font-size: 13px;
+    list-style: none;
+    padding-top: 60px;
+}
+
+@media (max-width: 600px){
+    .navegadores ul li {
+        display: inline-block;
+        padding-right: 25px;
+        color: white;
+        font-family: 'Poppins', serif;
+        font-size: 11px;
+        list-style: none;
+        padding-top: 60px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.carrousel {
+    margin: auto;
+}
+
+#sobre_mim {
+    display: flex;
+    flex-direction: row;
+    background-color: #EBA5A3;
+}
+
+@media (max-width: 600px){
+    #sobre_mim {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.historia {
+    color: #6F0324;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    padding: 30px 20px;
+}
+
+.historia h2 {
+    font-family: 'Cookie', serif;
+    font-size: 50px;
+    color: #6F0324;
+    text-align: right;
+
+    
+}
+
+.historia p {
+    font-family: 'Cookie', serif;
+    font-size: 25px;
+    text-align: right;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+@media (max-width: 600px){
+    .historia {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 50px 25px;
+    }
+    
+    .historia h2 {
+        font-family: 'Poppins', serif;
+        font-size: 17px;
+        text-align: center;
+        
+    }
+    
+    .historia p {
+        font-family: 'Cookie', serif;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 10px;
+        
+    }
+}
+
+.historia_enquadro {
+    color: #6F0324;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 50px 25px;
+}
+
+@media (max-width: 600px){
+    .historia_enquadro {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        padding: 30px 25px;
+    }
+}
+
+.historia_enquadro h1 {
+    font-family: 'Cookie', serif;
+    font-size: 30px;
+    text-align: left;
+}
+.linha{
+    height: 5px;
+    width: 90%;
+    background-color: #6F0324;
+    color: #6F0324;
+}
+
+.historia_enquadro h3 {
+    font-family: 'Cookie', serif;
+    font-size: 30px;
+    text-align: left;
+    color: #6F0324;
+}
+
+@media (max-width: 600px){ 
+    .historia_enquadro h1 {
+    font-family: 'Cookie', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+    .linha{
+        height: 5px;
+        width: 100%;
+        background-color: #6F0324;
+        color: #6F0324;
+    }
+
+    .historia_enquadro h3 {
+    font-family: 'Cookie', serif;
+    font-size: 20px;
+    text-align: center;
+    color: #6F0324;
+}
+}
+
+.imagem_equipe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px ;
+    
+}
+
+.imagem_equipe img {
+    border-radius: 50%;
+    height: 300px;
+    border: 2px solid #6F0324;
+}
+
+@media (max-width: 600px){
+    .imagem_equipe img {
+    border-radius: 50%;
+    height: 230px;
+    border: 2px solid #6F0324;
+    }
+
+    .imagem_equipe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px ;
+        
+    }
+}
+
+#setor_equipe {
+    display: flex;
+    flex-direction: column;
+    background-color: #EBA5A3;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 25px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #6F0324;
+    width: 104%;
+
+}
+
+.titulo h1 {
+    font-family: 'Cookie', serif;
+    font-size: 45px;
+    color: #EBA5A3;
+    padding-top: 7px;
+}
+
+@media (max-width: 600px){
+    .titulo h1 {
+        font-size: 20px;
+    }
+}
+
+.blocos {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.conjunto {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.pessoa_equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 60px;
+}
+
+.pessoa_equipe img {
+    border-radius: 50%;
+    height: 190px;
+    border: 2px solid #6F0324;
+}
+
+@media (max-width: 600px){
+    .pessoa_equipe img {
+        border-radius: 50%;
+        height: 170px;
+        border: 2px solid #6F0324;
+    }
+
+}   
+.blocos h3 {
+    font-family: 'Cookie', serif;
+    font-size: 40px;
+    text-align: center;
+    color: #6F0324;
+}
+
+.blocos p {
+    font-family: 'Cookie', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #6F0324;
+    font-weight: bold;
+}
+@media (max-width: 600px){
+
+}
+
+.titulo_servicos  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #6F0324;
+    width: 100%;
+    
+}
+
+.titulo_servicos h1 {
+    font-family: 'Cookie', serif;
+    font-size:45px;
+    color: #EBA5A3;
+    padding-top: 7px;
+    
+}
+
+@media (max-width: 600px){
+    .titulo_servicos h1 {
+        font-size: 20px;
+    }
+}
+
+#setor_servicos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBA5A3;
+}
+
+.conjunto_servicos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.servicos img {
+    width: 270px;   
+}
+
+@media (max-width: 600px){
+    .servicos img {
+        width: 200px;
+    }
+}
+
+.foto_servicos {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 30px;
+    border: 1px solid #6F0324;
+    justify-content: center;
+    align-items: center;
+   color: #6F0324;
+}
+
+.servicos h2 {
+    font-family: 'Cookie', sans-serif;
+    font-size:25px;
+    color: #6F0324;
+    padding: 7px;
+    font-weight: bold;
+}
+
+.servicos h3 {
+    font-family: 'Cookie', serif;
+    font-size:30px;
+    color: #6F0324;
+    padding: 10px;
+
+}
+
+@media (max-width: 600px){
+    .servicos h2 {
+        font-family: 'Cookie', sans-serif;
+        font-size:17px;
+        color: #6F0324;
+        padding: 7px;
+        font-weight: bold;
+    }
+    
+    .servicos h3 {
+        font-family: 'Arbutus Slab', serif;
+        font-size: 15px;
+        color: #1E1E1E;
+        padding: 4px;
+    
+    }
+}    
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #6F0324;
+}
+
+.lado_esquerdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 20px;
+    align-content: center;
+    width: 50%;
+}
+
+.lado_esquerdo p {
+    font-family: 'Cookie', sans-serif;
+    font-size:20px;
+    color: #EBA5A3;;
+}
+
+@media (max-width: 600px){
+    .lado_esquerdo p {
+        font-size:12px;
+}
+}
+
+.lado_direito {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 20px;
+    width: 50%;
+    align-items: center;
+}
+
+.lado_direito img {
+    height: 30px;
+    padding-left: 30px;
+}
+
+@media (max-width: 600px){
+    .lado_direito img {
+        height: 20px;
+        padding-left: 30px;
+    }
+}
